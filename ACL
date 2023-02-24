@@ -1,5 +1,5 @@
 -- This basically makes roblox unable to log your chat messages sent in-game. Meaning if you get reported for saying something bad, you won't get banned!
--- Credits: AnthonyIsntHere and ArianBlaack [THIS WAS NOT MADE BY PHANTOMS.]
+-- Credits: AnthonyIsntHere and ArianBlaack [THIS WAS NOT MADE BY PHANTOMS, JUST TWEAKED.]
 
 if not game:IsLoaded() then
     game.Loaded:wait()

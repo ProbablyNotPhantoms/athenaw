@@ -22,7 +22,7 @@ local PlayerGui = Player:FindFirstChildWhichIsA("PlayerGui") do
 end
 
 local Notify = function(_Title, _Text , Time)
-    StarterGui:SetCore("SendNotification", {Title = _Title, Text = _Text, Icon = "rbxassetid://12598515810", Duration = Time})
+    StarterGui:SetCore("SendNotification", {Title = _Title, Text = _Text, Icon = "rbxassetid://12598515737", Duration = Time})
 end
 
 local Tween = function(Object, Time, Style, Direction, Property)
@@ -295,4 +295,4 @@ if OldSetting then
     StarterGui:SetCoreGuiEnabled(CoreGuiSettings[1], CoreGuiSettings[2])
 end
 Notify("Athena Bypasses", "Anti Chat & Screenshot Logger Loaded!", 10)
-print(string.format("Anti Chat-Logger has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
+print(string.format("Phantoms ACL has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
